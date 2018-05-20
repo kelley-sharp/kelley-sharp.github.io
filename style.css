@@ -95,18 +95,18 @@ img {
   display: block;
   margin: 0 auto;
 }
-
-#profile_pic {
+.avatar_container {
   position: relative;
   top: 0;
   left: 0;
-    width:128px;
-    margin: 10px;
-    border:10px solid skyblue;
-    border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
 }
+#profile_pic {
+  width: 275px;
+  margin: 10px auto;
+  border: 10px solid lightskyblue;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
 }
 
 #background_image {
@@ -135,11 +135,13 @@ img {
   color: White;
 }
 
-
-
 /* About */
 
 .profile {
+  padding: 0px 200px;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -147,13 +149,7 @@ img {
   list-style-type: none;
 }
 
-.profile img {
-  padding-top: 50px;
-}
-
 /*need to: 
 block out paragraphs
 animate homepage to occasionally party
 */
-
-
