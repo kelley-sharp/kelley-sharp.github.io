@@ -187,3 +187,22 @@ li {
 #earth {
   width: 200px;
 }
+
+#address {
+  text-align: center;
+}
+
+#email {
+  text-align: center;
+}
+
+#git_hub_icon {
+  width: 50px;
+}
+
+#linked_in_icon {
+  width: 50px;
+}
+
+#social_icons {
+}
