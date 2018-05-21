@@ -91,10 +91,11 @@ h1 {
   text-align: center;
 }
 
-img {
+.not_icons {
   display: block;
   margin: 0 auto;
 }
+
 .avatar_container {
   position: relative;
   top: 0;
@@ -177,8 +178,20 @@ li {
   animation-iteration-count: infinite;
 }
 
+#beam {
+  height: 300px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
 #enterprise {
   width: 200px;
+  position: relative;
+  left: 40px;
+  top: 10px;
+  z-index: -1;
 }
 
 @keyframes slidein {
@@ -189,10 +202,6 @@ li {
   to {
     margin-right: 0%;
   }
-}
-
-#earth {
-  width: 200px;
 }
 
 #address {
@@ -211,5 +220,11 @@ li {
   width: 50px;
 }
 
-#social_icons {
+#social_icons_container {
+  text-align: center;
+  display: inline;
+}
+
+.icons {
+  text-align: center;
 }
