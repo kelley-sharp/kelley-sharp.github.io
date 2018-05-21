@@ -100,13 +100,16 @@ img {
   top: 0;
   left: 0;
 }
-#profile_pic {
+.profile_pic {
   width: 275px;
-  margin: 10px auto;
   border: 10px solid lightskyblue;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
+}
+
+#home_pic {
+  margin: 10px auto;
 }
 
 #background_image {
@@ -136,6 +139,10 @@ img {
 }
 
 /* About */
+
+#about_pic {
+  margin-top: 78.8px;
+}
 
 .profile {
   padding: 0px 200px;
