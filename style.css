@@ -153,3 +153,37 @@ h2 {
 block out paragraphs
 animate homepage to occasionally party
 */
+
+/*contact me*/
+
+li {
+  list-style-type: none;
+  align-content: center;
+}
+
+#enterprise_container {
+  overflow: hidden;
+  animation-name: slidein;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-direction: initial;
+  animation-iteration-count: infinite;
+}
+
+#enterprise {
+  width: 200px;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 50%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+
+#earth {
+  width: 200px;
+}
