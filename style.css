@@ -244,3 +244,7 @@ li {
 .social_icon_a {
   text-align: center;
 }
+
+#contact_container {
+  padding: 100px;
+}
