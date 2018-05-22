@@ -12,6 +12,14 @@ h1 {
 
 #description {
   text-align: center;
+  color: lightslategray;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+  color: lightsalmon;
 }
 
 #nav {
@@ -39,11 +47,11 @@ h1 {
   background-color: lightskyblue;
 }
 
-#nav ul li a {
+.nav_a {
   padding: 15px;
 }
 
-#nav ul li a,
+.nav_a,
 :visited {
   color: black;
   display: block;
@@ -51,7 +59,7 @@ h1 {
   text-decoration: none;
 }
 
-#nav ul li a:hover {
+.nav_a:hover {
   color: white;
   text-decoration: none;
 }
@@ -64,7 +72,6 @@ h1 {
   display: none;
   position: absolute;
   background-color: lightskyblue;
-  border: 5px solid lightskyblue;
   border-top: 0;
   margin-left: -5px;
   min-width: 50px;
@@ -74,7 +81,7 @@ h1 {
   display: block;
 }
 
-#nav ul ul li a,
+#nav ul ul li .nav_a,
 visited {
   color: black;
 }
@@ -89,6 +96,7 @@ h1 {
 
 #resume {
   text-align: center;
+  border: none;
 }
 
 .not_icons {
@@ -101,7 +109,8 @@ h1 {
   top: 0;
   left: 0;
 }
-.profile_pic {
+
+.not_icons {
   width: 275px;
   border: 10px solid lightskyblue;
   border-radius: 500px;
@@ -147,20 +156,25 @@ h1 {
 
 .profile {
   padding: 0px 200px;
+  color: lightslategray;
 }
 
 h2 {
   text-align: center;
+  color: black;
+}
+
+.profile p {
+  margin-bottom: 25px;
+}
+
+.profile {
+  margin-bottom: 100px;
 }
 
 .profile ul {
   list-style-type: none;
 }
-
-/*need to: 
-block out paragraphs
-animate homepage to occasionally party
-*/
 
 /*contact me*/
 
@@ -172,9 +186,9 @@ li {
 #enterprise_container {
   overflow: hidden;
   animation-name: slidein;
-  animation-duration: 5s;
-  animation-delay: 2s;
-  animation-direction: initial;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
 }
 
@@ -188,19 +202,16 @@ li {
 
 #enterprise {
   width: 200px;
-  position: relative;
-  left: 40px;
-  top: 10px;
-  z-index: -1;
+  border: none;
 }
 
 @keyframes slidein {
   from {
-    margin-right: 50%;
+    margin-right: 20%;
   }
 
   to {
-    margin-right: 0%;
+    margin-right: -5%;
   }
 }
 
@@ -222,9 +233,14 @@ li {
 
 #social_icons_container {
   text-align: center;
-  display: inline;
+  display: block;
 }
 
 .icons {
+  text-align: center;
+  width: 50px;
+}
+
+.social_icon_a {
   text-align: center;
 }
