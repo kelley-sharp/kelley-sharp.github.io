@@ -47,11 +47,11 @@ button {
   background-color: lightskyblue;
 }
 
-.nav_a {
+#nav ul li a {
   padding: 15px;
 }
 
-.nav_a,
+#nav ul li a,
 :visited {
   color: black;
   display: block;
@@ -59,7 +59,7 @@ button {
   text-decoration: none;
 }
 
-.nav_a:hover {
+#nav ul li a:hover {
   color: white;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ button {
   display: block;
 }
 
-#nav ul ul li .nav_a,
+#nav ul ul li a,
 visited {
   color: black;
 }
